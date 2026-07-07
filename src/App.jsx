@@ -13,7 +13,7 @@ function App() {
         <p className="tagline">
           Computer Science Graduate | Software Developer
         </p>
-        <a href="/My-Website/resume.pdf" download className="resume-btn">
+        <a href="/public/resume.pdf" download className="resume-btn">
           Download Resume
         </a>
       </header>
