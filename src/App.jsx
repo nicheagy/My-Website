@@ -1,14 +1,14 @@
 import "./App.css";
 import ParticleBackground from "./ParticleBackground";
-import GitHubProjects from "./GitHubProjects";
 import NavBar from "./NavBar";
+import GitHubProjects from "./GitHubProjects";
 
 function App() {
   return (
     <div className="app">
       <ParticleBackground />
       <NavBar />
-      <header className="hero">
+      <header className="hero" id="top">
         <h1>Nicholas Eagy</h1>
         <p className="tagline">
           Computer Science Graduate | Software Developer
@@ -59,28 +59,6 @@ function App() {
         </div>
       </section>
 
-      <section className="section" id="experience">
-        <h2>Experience</h2>
-        <div className="experience-item">
-          <h3>Computer Science Tutor — Liberty University</h3>
-          <p className="date">Lynchburg, VA · Fall 2024</p>
-          <p>
-            Debugged student code and explained complex concepts, reinforcing
-            structured problem-solving. Translated technical issues into clear,
-            actionable guidance.
-          </p>
-        </div>
-        <div className="experience-item">
-          <h3>Shift Lead — Chick-fil-A</h3>
-          <p className="date">Wesley Chapel, NC · May 2021 – July 2025</p>
-          <p>
-            Led 10+ staff per shift in a fast-paced environment, ensuring
-            quality and operational efficiency. Resolved real-time issues
-            including equipment failures and scheduling changes.
-          </p>
-        </div>
-      </section>
-
       <section className="section" id="projects">
         <h2>Projects</h2>
         <div className="experience-item">
@@ -110,7 +88,29 @@ function App() {
         </div>
       </section>
 
-      <section className="section" id-="github">
+      <section className="section" id="experience">
+        <h2>Experience</h2>
+        <div className="experience-item">
+          <h3>Computer Science Tutor — Liberty University</h3>
+          <p className="date">Lynchburg, VA · Fall 2024</p>
+          <p>
+            Debugged student code and explained complex concepts, reinforcing
+            structured problem-solving. Translated technical issues into clear,
+            actionable guidance.
+          </p>
+        </div>
+        <div className="experience-item">
+          <h3>Shift Lead — Chick-fil-A</h3>
+          <p className="date">Wesley Chapel, NC · May 2021 – July 2025</p>
+          <p>
+            Led 10+ staff per shift in a fast-paced environment, ensuring
+            quality and operational efficiency. Resolved real-time issues
+            including equipment failures and scheduling changes.
+          </p>
+        </div>
+      </section>
+
+      <section className="section" id="github">
         <h2>GitHub Repositories</h2>
         <GitHubProjects />
       </section>
